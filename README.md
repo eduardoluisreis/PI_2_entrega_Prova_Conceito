@@ -1,5 +1,5 @@
 # PI_2_entrega_Prova_Conceito
-#### <center> ***Projeto Integrador Quarto semestre TADS e TSI Segunda Etapa - SENAC-EAD*** </center>
+#### <center> *** Projeto Integrador Quarto semestre TADS e TSI Segunda Etapa - SENAC-EAD *** </center>
 
 ### <center>Integrantes</center>
 <center>Amanda Silva Costa
