@@ -2,13 +2,12 @@
 #### <center>Projeto Integrador Quarto semestre TADS e TSI Segunda Etapa - SENAC-EAD </center>
 
 
-
-<center>|Integrantes|</center>
+|Integrantes|
 |--|
-<center>|Amanda Silva Costa|
-<center>Barbara Vargas da Silva
-<center>Eduardo Luis Ferreira Reis
-<center>Joicielle Rodrigues dos Santos
-<center>Lenita Maria Maciel de Almeida
-<center>Marcos Vinicius da Matta Pereira
-<center>Wellington James Monteiro da Silva
+|Amanda Silva Costa|
+|Barbara Vargas da Silva|
+|Eduardo Luis Ferreira Reis|
+|Joicielle Rodrigues dos Santos|
+|Lenita Maria Maciel de Almeida|
+|Marcos Vinicius da Matta Pereira|
+|Wellington James Monteiro da Silva|
