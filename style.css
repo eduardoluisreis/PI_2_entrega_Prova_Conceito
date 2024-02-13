@@ -1,0 +1,4 @@
+body{
+    background-image: " assets/background/linear-gradient.svg";
+    background: linear-gradient(to left, #0000ff, #dae41f);
+}
