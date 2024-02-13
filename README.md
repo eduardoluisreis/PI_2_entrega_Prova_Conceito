@@ -1,5 +1,6 @@
-# PI_2_entrega_Prova_Conceito
-#### <center>Projeto Integrador Quarto semestre TADS e TSI Segunda Etapa - SENAC-EAD </center>
+# PROJETO INTEGRADOR: DESENVOLVIMENTO DE SISTEMAS ORIENTADO A DISPOSITIVOS MÓVEIS E BASEADOS NA WEB
+# <center>2ª_entrega_Prova_Conceito </center>
+#### <center>Quarto semestre TADS e TSI Segunda Etapa - SENAC-EAD </center>
 
 
 |Integrantes|
