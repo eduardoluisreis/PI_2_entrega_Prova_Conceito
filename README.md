@@ -14,5 +14,5 @@
 |Wellington James Monteiro da Silva|
 
 
-**Preview da Landing Page**
+**<center>Preview da Landing Page</center>**
 <img height="300vh" src="assets/img/tela_landing.png">
