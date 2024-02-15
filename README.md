@@ -12,3 +12,7 @@
 |Lenita Maria Maciel de Almeida|
 |Marcos Vinicius da Matta Pereira|
 |Wellington James Monteiro da Silva|
+
+
+**Preview da Landing Page**
+<img height="300vh" src="assets/img/tela_landing.png">
