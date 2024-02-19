@@ -15,7 +15,7 @@
 |Marcos Vinicius da Matta Pereira|
 |Wellington James Monteiro da Silva|
 
-**<center> Preview da Landing Page </center>**
+**<center> Tela de Landing Page </center>**
 <center><img height="300vh" src="assets/img/tela_landing.png">
 
 </center>
