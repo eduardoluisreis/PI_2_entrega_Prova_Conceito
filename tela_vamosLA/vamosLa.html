@@ -1,42 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="/assets/img/favico-vira-lata.png" href="/assets/img/favico-vira-lata.png">
-    <link rel="stylesheet" href="/css/cadastro.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Cadastro</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="/assets/img/favico-vira-lata.png" href="/assets/img/favico-vira-lata.png">
+        <link rel="stylesheet" href="/css/cadastro.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <title>Vamos Lá</title>
+        <style>
+            body{
+                
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;    
+            }
+            
+    #photo-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
 
-<body>
-    <main class="container">
-        <section class="titulo">
-            <p>Tela Cadastrar</p>
-            <p>Criar uma nova conta</p>
-        </section>
+    .photo {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
 
-        <form action="">
-            <label for="form_name">Nome de usuário</label><br>
-            <input type="text" id="name" value="digite o nome do usuário">
-
-            <label for="form_email">email</label><br>
-            <input type="text" id="email" value="email"><br>
-
-            <label for="form_fone">Numero de telefone</label><br>
-            <input type="text" id="name" value="digite o numero de seu telefone"><br>
-
-            <label for="form_name">Senha</label><br>
-            <input type="text" id="name" value="digite uma senha"><br>
-
-            <span><input type="submit" value="Login">
-        </form></span>
-
-        <p class="login_link">Você tem uma conta? <a href="#">logar</a></p>
-    </main>
-</body>
+    #redirect-button {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: center;
+      background-color: #3498db;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+        </style>
+    </head>
+    <body>
+        <div id="photo-container">
+            <img class="photo1" src="img/cachorroCama-tvl.png" alt="Foto 1">
+            <img class="photo2" src="img/gatoEcachorro-tvl.png" alt="Foto 2">
+            <img class="photo3" src="img/gatoPreto-tvl.png" alt="Foto 3">
+            <img class="photo4" src="img/lobo-tvl.png" alt="Foto 4">
+            <img class="photo5" src="img/cachorroMato-tvl.png" alt="Foto 5">
+            <img class="photo6" src="img/lobao.png" alt="Foto 6">
+            <img class="photo7" src="img/gatoVerde-tvl.png" alt="Foto 7">
+            <img class="photo8" src="img/gatoPreto-tvl.png" alt="Foto 8">
+            <img class="photo9" src="img/gatoEmulher-tvl.png" alt="Foto 9">
+            <img class="photo10" src="img/doguinho-tvl.png" alt="Foto 10">
+        </div>
+        <div id="msg-tvl">
+            <h2>Preparado</h2>
+            <h2>para conhcer seu mais</h2>
+            <h2>novo amiguinho?</h2>
+        </div>
+        <div id="btn">
+            <a href="URL_do_redirecionamento" id="redirect-button">Ir para Outra Página</a> 
+        </div>
+    </body>
 
 </html>
