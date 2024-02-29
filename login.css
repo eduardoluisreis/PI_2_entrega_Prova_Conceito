@@ -1,27 +1,90 @@
+/* Estilos para dispositivos móveis (inicialmente) */
+
+/* Geral */
 body {
     background-color: #1B1F46;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    max-height: 100vh;
+    text-align: center;
+    padding: 20px;
 }
 
 h1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 25px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 50px;
+    margin-bottom: 20px;
     color: #37BFFA;
-    height: 100px;
-    max-width: 60%;
+}
+
+/* Botões */
+button {
+    display: flex;
+    width: 70%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #007bff; /* Cor do botão */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Formulário */
+form {
+    margin-top: 20px;
+    text-align: center;
+    border: #007bff dashed 1px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #C4C4C4;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    background-color: #28a745; /* Cor do botão de envio */
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Media query para dispositivos maiores */
+@media only screen and (min-width: 768px) {
+    main {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    button {
+        display: inline-block;
+        width: auto;
+    }
+
+    form {
+        text-align: center;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="submit"] {
+        width: 80%;
+    }
 }
