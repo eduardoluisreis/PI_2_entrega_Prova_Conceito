@@ -11,17 +11,26 @@ main {
     padding: 20px;
 }
 
+.conexions{
+ display: flex; 
+ justify-content: end;
+gap: 8px;
+}
+
 .logo{
     display: flex;
     justify-content: center;
     margin-top: 55px;
     padding-bottom: 30px;
+    width: 294px;
+    height: 57px;
 }
 
 h1 {
     margin-bottom: 20px;
     color: #37BFFA;
 }
+
 
 /* Botões */
 button {
@@ -71,6 +80,19 @@ input[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.ou{
+    color: #8B8989;
+}
+
+span, .p1{
+    color: #8B8989;
+}
+
+span, .p2{
+    color: #9FE5AD;
+}
+
 
 /* Media query para dispositivos maiores */
 @media only screen and (min-width: 768px) {
