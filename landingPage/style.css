@@ -1,0 +1,103 @@
+body { 
+
+    font-family: Poppins;
+    background-color: #1B1F46;
+    background-image: url(Gradient2.png);
+    background-size: cover;
+}
+
+header{
+    background-color: #1B1F46;
+    opacity: 0.7;
+
+}
+
+nav li{
+    color: aliceblue;
+    display: inline;
+    margin: 0 0 0 50px;
+    font-size: 200;
+}
+
+
+.menu{
+    display: inline;
+font-size: 200;
+}
+
+.doguinho{
+    max-width: 40px;
+    
+}
+.card_central{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center;
+    max-height: 100;*/
+}
+
+
+.titulo{
+  /*  position: inherit;
+    text-align: justify;
+    padding-left: 40%;
+    padding-bottom: 30%;
+    padding-top: 0%;
+    padding-right: 0%;*/
+
+}
+
+.paragrafo1{
+
+
+}
+
+.paragrafo2 {
+   /* padding-right: 30%;
+    padding-top: 0%;
+    font-weight: 800;
+    font-size: 30px;
+    height: 200px;
+    max-width: 25%;
+    text-align: justify;*/
+}
+
+
+.texto2{
+   /* display: flex;
+    padding-left: 40%;
+    padding-bottom: 5%;
+*/
+}
+.btn{
+    align-content: center;
+}
+
+.save{
+    background-color: #2F98F8;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    }
+
+.donate{
+    background-color: 0;
+    border-color: rgb(47, 152, 248);
+    color: #2F98F8;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0,4;
+
+}
