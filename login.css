@@ -1,10 +1,11 @@
 /* Geral */
 body {
-/*     background-color: #1B1F46;
- */    background-image: url(/assets/background/patinhas.png);
+  background-color: #1B1F46;
+  background-image: url(/assets/background/patinhas.png);
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 
 main {
