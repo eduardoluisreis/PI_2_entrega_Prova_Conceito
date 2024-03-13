@@ -18,4 +18,6 @@
 **<center> Tela de Landing Page </center>**
 <center><img height="300vh" src="assets/img/tela_landing.png">
 
+# Para instruções de uso e informações técnicas, favor ler o arquivo [leiame.md](leiame.md) 
+
 </center>
