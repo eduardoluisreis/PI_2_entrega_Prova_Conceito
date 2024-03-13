@@ -24,7 +24,7 @@ Depois
 
         * Java como linguagem para codificarmos a lógica do projeto.
         * SpringBoot como framework
-        * MySQL como sistema SGBD para aramazenagem dos dados.
+        * SQL Server como sistema SGBD para aramazenagem dos dados.
 
 
     * ##### Ferramentas
