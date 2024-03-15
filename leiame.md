@@ -3,13 +3,22 @@
 ## Revisatação do Projeto Anterior.
 
 * Foi revisitado o projeto anterior e notamos que o logo da landing page não estava seguindo o padrão do logo no aplicativo.
-    * Efetuamos a alteração conforme imagem abaixo.
+    * Efetuamos a alteração conforme imagem do <u>*Antes*</u> e <u>*Depois*</u> mostradas abaixo.
 
- Antes
-    <img height="300vh" src="/assets/img/LandingPageLogoBefore.png">
+* Também foi visto que não haviamos previsto a tela de busca.
+    * Prototipamos a tela no projeto no figma. Tema mostrada na <u>*imagem 3*</u>.
 
-Depois
-    <img height="300vh" src="/assets/img/LandingPageLogoAfter.png">
+ <center>Antes</center>
+    <center><img height="300vh" src="/assets/img/LandingPageLogoBefore.png"></center>
+
+<center>Depois</center>
+    <center><img height="300vh" src="/assets/img/LandingPageLogoAfter.png"></center>
+
+
+
+<center>Imagem 3</center>
+  <center> <img height="600vh" src="/assets/img/tela_search.png"></center>
+    
 
 ## Preparação do Ambiente de Desenvolvimento do Projeto.
 
