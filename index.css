@@ -1,0 +1,88 @@
+body {
+    position: relative;
+    width: 375px;
+    height: 812px;
+
+    background: #1B1F46;
+}
+
+#Pet-Help {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+
+    position: absolute;
+    width: 294px;
+    height: 87px;
+    left: calc(50% - 294px/2 + 12.5px);
+    top: calc(50% - 87px/2 - 309.5px);
+
+}
+
+#btn1 {
+    position: absolute;
+    width: 271.69px;
+    height: 35.14px;
+    left: 72px;
+    top: 184px;
+}
+
+#btn2 {
+    position: absolute;
+    width: 254.56px;
+    height: 35.14px;
+    left: 72px;
+    top: 223.54px;
+}
+
+#btn3 {
+    position: absolute;
+    width: 271.69px;
+    height: 35.14px;
+    left: 72px;
+    top: 302.86px;
+}
+
+#btn4 {
+    position: absolute;
+    width: 270.69px;
+    height: 35.14px;
+    left: 72px;
+    top: 263.07px;
+}
+
+#L5 {
+    position: absolute;
+    width: 151px;
+    height: 0px;
+    left: 20px;
+    top: 365px;
+
+    border: 0px solid #C4C4C4;
+
+}
+
+#Cachorro {
+    position: absolute;
+    width: 298px;
+    height: 238px;
+    left: calc(50% - 298px/2 - 0.5px);
+    top: 422px;
+
+    background: url(pepper.jpg);
+
+}
+
+#L4 {
+    position: absolute;
+    width: 332px;
+    height: 0px;
+    left: 22px;
+    top: 696.5px;
+
+    border: 0px solid #C4C4C4;
+
+}
