@@ -55,17 +55,18 @@ form {
 
 label {
     display: block;
+    margin-left: -92px;
     margin-bottom: 5px;
     color: #C4C4C4;
 }
 
 input[type="text"],
 input[type="password"] {
+    background-color: #1B1F46;
     width: 80%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
-    border-radius: 25px;
 }
 
 input[type="submit"] {
