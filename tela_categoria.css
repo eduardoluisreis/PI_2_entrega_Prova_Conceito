@@ -1,88 +1,93 @@
 body {
-    position: relative;
-    width: 375px;
-    height: 812px;
-
-    background: #1B1F46;
+    background-color: #1B1F46;
+    font-family: 'Roboto', sans-serif;
+    color: #37BFFA;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
 
-#Pet-Help {
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+.conexions {
     display: flex;
-    flex-direction: row;
+    justify-content: end;
+    gap: 8px;
+}
+
+.logo {
+    display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 5px;
-
-    position: absolute;
+    margin-top: 1px;
+    padding-bottom: 30px;
     width: 294px;
-    height: 87px;
-    left: calc(50% - 294px/2 + 12.5px);
-    top: calc(50% - 87px/2 - 309.5px);
-
+    height: 57px;
+    align-items: center;
 }
 
-#btn1 {
-    position: absolute;
-    width: 271.69px;
-    height: 35.14px;
-    left: 72px;
-    top: 184px;
+.logo img {
+    width: auto;
+    height: 40px;
 }
 
-#btn2 {
-    position: absolute;
-    width: 254.56px;
-    height: 35.14px;
-    left: 72px;
-    top: 223.54px;
+.botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: center;
+    padding: 0px;
+    align-items: center;
+    gap: 9px;
 }
 
-#btn3 {
-    position: absolute;
-    width: 271.69px;
-    height: 35.14px;
-    left: 72px;
-    top: 302.86px;
+.sendButton {
+    top: 5rem;
+    width: 15rem;
+    height: 2rem;
+    background-color: #fff;
+    border-radius: 15px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: grey;
 }
 
-#btn4 {
-    position: absolute;
-    width: 270.69px;
-    height: 35.14px;
-    left: 72px;
-    top: 263.07px;
+.sendButton:hover {
+    background-color: rgb(2, 62, 108);
 }
 
-#L5 {
-    position: absolute;
-    width: 151px;
-    height: 0px;
-    left: 20px;
-    top: 365px;
-
-    border: 0px solid #C4C4C4;
-
-}
-
-#Cachorro {
-    position: absolute;
+.cadela {
     width: 298px;
     height: 238px;
-    left: calc(50% - 298px/2 - 0.5px);
-    top: 422px;
-
-    background: url(pepper.jpg);
-
+    margin-top: 422px;
+    left: 38px;
 }
 
-#L4 {
-    position: absolute;
-    width: 332px;
-    height: 0px;
-    left: 22px;
-    top: 696.5px;
+.linha1 {
+    margin-top: 20px;
+    width: 315px;
+    position: center;
+}
 
-    border: 0px solid #C4C4C4;
+.linha2 {
+    margin-top: 30px;
+    width: 315px;
+    position: center;
+}
 
+.cadela {
+    margin-top: 40px;
+    width: 298px;
+    height: 238;
+    top: 422px;
+    left: 38px;
+    text-align: center;
+}
+
+.cadela img {
+    width: 298px;
+    height: auto;
 }
