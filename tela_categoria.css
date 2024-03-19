@@ -1,0 +1,98 @@
+body {
+    background-color: #1B1F46;
+    font-family: 'Roboto', sans-serif;
+    color: #37BFFA;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+html {
+    transform: scale(1.0);
+    transform-origin: 0 0;
+}
+
+main {
+    text-align: center;
+    padding: 30px;
+}
+
+.conexions {
+    display: flex;
+    justify-content: end;
+    gap: 8px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+    padding-bottom: 30px;
+    width: 294px;
+    height: 57px;
+    align-items: center;
+}
+
+.logo img {
+    width: auto;
+    height: 40px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: center;
+    padding: 0px;
+    align-items: center;
+    gap: 9px;
+}
+
+.sendButton {
+    top: 5rem;
+    width: 15rem;
+    height: 2rem;
+    background-color: #fff;
+    border-radius: 15px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: grey;
+}
+
+.sendButton:hover {
+    background-color: rgb(2, 62, 108);
+}
+
+.cadela {
+    width: 298px;
+    height: 238px;
+    margin-top: 422px;
+    left: 38px;
+}
+
+.linha1 {
+    margin-top: 20px;
+    width: 315px;
+    position: center;
+}
+
+.linha2 {
+    margin-top: 30px;
+    width: 315px;
+    position: center;
+}
+
+.cadela {
+    margin-top: 40px;
+    width: 298px;
+    height: 238;
+    top: 422px;
+    left: 38px;
+    text-align: center;
+}
+
+.cadela img {
+    width: 310px;
+    height: 238px;
+}
