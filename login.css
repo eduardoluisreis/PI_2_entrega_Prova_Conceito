@@ -1,11 +1,10 @@
 /* Geral */
 body {
-  background-color: #1B1F46;
-  background-image: url(/assets/background/patinhas.png);
+    background-color: #1B1F46;
+    background-image: url(/assets/background/patinhas.png);
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    height: 100vh;
 }
 
 main {
@@ -13,13 +12,13 @@ main {
     padding: 20px;
 }
 
-.conexions{
- display: flex; 
- justify-content: end;
-gap: 8px;
+.conexions {
+    display: flex;
+    justify-content: end;
+    gap: 8px;
 }
 
-.logo{
+.logo {
     display: flex;
     justify-content: center;
     margin-top: 55px;
@@ -36,6 +35,7 @@ h1 {
 
 button {
     display: flex;
+    align-items: center;
     width: 70%;
     margin-left: 50px;
     margin-bottom: 10px;
@@ -54,10 +54,29 @@ form {
 }
 
 label {
-    display: block;
-    margin-left: -92px;
-    margin-bottom: 5px;
-    color: #C4C4C4;
+    display: flex;
+    width: 277px;
+    height: 16px;
+    top: 494px;
+    color: #979797;
+    align-items: center;
+    margin-left: 22px;
+}
+
+.forgot {
+    display: flex;
+    margin-left: 22px;
+    width: 267px;
+    height: 16px;
+    left: 12px;
+    top: 488px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #979797;
 }
 
 input[type="text"],
@@ -80,15 +99,15 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-.ou{
+.ou {
     color: #8B8989;
 }
 
-span, .p1{
+span, .p1 {
     color: #8B8989;
 }
 
-span, .p2{
+span, .p2 {
     color: #9FE5AD;
 }
 
