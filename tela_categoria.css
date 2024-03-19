@@ -7,9 +7,14 @@ body {
     height: 100vh;
 }
 
+html {
+    transform: scale(1.0);
+    transform-origin: 0 0;
+}
+
 main {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 .conexions {
@@ -88,6 +93,6 @@ main {
 }
 
 .cadela img {
-    width: 298px;
-    height: auto;
+    width: 310px;
+    height: 238px;
 }
