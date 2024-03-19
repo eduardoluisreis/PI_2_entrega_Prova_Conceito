@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/login.css">
+    <link rel="icon" type="/assets/img/favico-vira-lata.png" href="/assets/img/favico-vira-lata.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Login</title>
+</head>
+
+<body>
+    <main>
+
+        <section class="conexions">
+            <img src="/assets/img/Cellular Connection.png" alt="simbolo de conexao celular">
+            <img src="/assets/img/Wifi.png" alt="simbolo de conexao wifi">
+            <img src="/assets/img/Battery.png" alt="simbolo de carga de bateria de celular">
+        </section>
+
+
+        <div class="logo">
+            <img src="/assets/img/logopatinha.png" alt="logopatinha">
+            <h1>Pet Help</h1>
+        </div>
+
+        <section>
+            <button><img src="/assets/img/Facebook.png"> Continue com Facebook</button><br>
+            <button><img src="/assets/img/Apple.png">Continue com Apple</button><br>
+            <button><img src="/assets/img/google.png">Continue com Google</button>
+        </section>
+
+
+
+        <p class="ou">------------------ou------------------</p>
+
+
+        <section class="form">
+            <form action="processar_login.php" method="post">
+
+                <label for="username">Email ou nomeusuario</label>
+                <input type="text" id="username" name="username" required placeholder="Email ou nomeusuario">
+
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" required placeholder="Senha">
+
+                <p class="forgot">Esqueceu sua Senha?</p>
+
+                <input type="submit" value="Log in">
+            </form>
+        </section>
+
+        <hr>
+        <p>
+            <span class="p1">Não é Membro |</span>
+            <span class="p2">Crie uma Conta</span>
+        </p>
+
+    </main>
+</body>
+
+</html>
