@@ -69,4 +69,10 @@
     * #### GitHub
          * O repositório do projeto pode ser encontrado no link do GitHub a seguir :  [*GitHub*](https://github.com/eduardoluisreis/PI_2_entrega_Prova_Conceito)
 
+
+<p align="center">
+    <img width="1024" heigth="500" src="/assets/Video/PI2_GRUPO_19.gif">
+</p>
+        
+
         
